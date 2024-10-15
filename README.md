@@ -34,3 +34,32 @@ The button and the text color change when hovered, improving the user experience
 
 ### Versatility:
 This CSS Grid layout is easily reusable for other sections like Product Layout, Student Profile, Movie List, and MLBB Heroes. By following a similar pattern, you can create different layouts while maintaining a cohesive structure across different pages.
+
+#
+
+### Employee Cards
+![image](https://github.com/user-attachments/assets/b0d4e83d-6ae9-4b8e-b56a-19c107cc403b)
+
+#
+
+### Product Layout
+![image](https://github.com/user-attachments/assets/573f92c0-3f75-4e90-875e-872e2a1e2446)
+
+#
+
+### Student Profile
+![image](https://github.com/user-attachments/assets/242ac2f8-c4b5-4ddb-9fdd-9eea5aab7497)
+
+#
+
+### Movie List
+![image](https://github.com/user-attachments/assets/c889a66e-991d-46a2-a732-ee034afd4ef2)
+
+#
+
+### MLBB Hero
+![image](https://github.com/user-attachments/assets/f4dfcbd0-ba2a-4902-b859-8349271e3b78)
+
+
+
+
