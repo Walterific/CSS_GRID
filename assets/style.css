@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: #f9f9f9;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 1rem;
+    color: black;
+    margin-left: 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #6124B1;
+}
+
+.product-container,
+.employee-container,
+.student-container,
+.movie-container,
+.mlbb-container {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product-card,
+.employee-card,
+.student-card,
+.movie-card,
+.mlbb-card {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 2rem;
+    border: 1px solid hsl(0, 0%, 94%);
+    overflow-y: hidden;
+    transition: .3s;
+}
+
+.product-card:hover,
+.employee-card:hover,
+.student-card:hover,
+.movie-card:hover,
+.mlbb-card:hover {
+    box-shadow: 0 12px 32px hsla(0, 0%, 20%, .1);
+}
+
+.product-tag,
+.employee-tag,
+.student-course,
+.movie-tag,
+.mlbb-tag {
+    background-color: #6124B1;
+    padding: .5rem 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .813rem;
+    font-weight: 500;
+    position: absolute;
+    margin: 1rem;
+    transform: rotate(-360deg);
+    right: 0;
+    top: 0;
+}
+
+.product-card img,
+.employee-card img,
+.student-card img,
+.movie-card img,
+.mlbb-card img {
+    height: 214px;
+    margin-bottom: 1rem;
+}
+
+.product-title,
+.employee-title,
+.student-name,
+.movie-title,
+.mlbb-name {
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-bottom: .75rem;
+}
+
+.product-price,
+.employee-networth,
+.student-number,
+.movie-rating,
+.mlbb-skin {
+    display: block;
+    color: #6124B1;
+    transition: .3s;
+}
+
+.product-button,
+.employee-button,
+.student-button,
+.movie-button,
+.mlbb-button {
+    background-color: #6124B1;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: .813rem;
+}
+
+.product-button:hover,
+.employee-button:hover,
+.student-button:hover,
+.movie-button:hover,
+.mlbb-button:hover {
+    background-color: #BB86FC;
+}
+
+@media (max-width: 768px) {
+    .employee-container,
+    .product-container,
+    .student-container,
+    .movie-container,
+    .mlbb-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .employee-card,
+    .product-card,
+    .student-card,
+    .movie-card,
+    .mlbb-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
